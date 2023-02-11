@@ -1,7 +1,7 @@
 import { PropsWithChildren } from "react";
 import { NavbarProps } from "./NavbarProps";
-import { Nav } from "./NavbarCss";
-// import { css } from "@emotion/css";
+import { Nav } from "./Style";
+import Search from "../Search/Search";
 
 const Navbar = (props: PropsWithChildren<NavbarProps>): JSX.Element => {
     // const {
@@ -19,7 +19,7 @@ const Navbar = (props: PropsWithChildren<NavbarProps>): JSX.Element => {
                 <p>Storeegg</p>
             </div>
             <div className={Nav.Mid}>
-                <input name="search-nav"/>
+                <Search/>
             </div>
             <div className={Nav.Left}>
                 
