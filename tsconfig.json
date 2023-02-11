@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["@emotion/react/types/css-prop"],
     "target": "es5",
     "lib": [
       "dom",
@@ -22,5 +23,5 @@
   },
   "include": [
     "src"
-  ]
+, "public/css"  ]
 }
