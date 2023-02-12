@@ -2,7 +2,6 @@ import { PropsWithChildren, useState } from "react";
 import SearchIcon from "./searchicon";
 import { Style, FocusSearch } from "./Style";
 import { SearchProps } from "./SearchProps";
-import { cx } from "@emotion/css";
 
 const Search = (props: PropsWithChildren<SearchProps>): JSX.Element => {
     const [isActive, setIsActive] = useState(false);

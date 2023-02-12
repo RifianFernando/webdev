@@ -16,6 +16,7 @@ export const Style = {
         border: "none",
         width: "350px",
         fontSize: "15px",
+        padding: "0.5rem",
         "&:focus-within": {
             outline: "none",
         },
@@ -30,7 +31,7 @@ export const Style = {
         border: "none",
         cursor: "pointer",
         color: "#fff",
-        backgroundColor: "#1dbf73",
+        backgroundColor: "#DD995A",
         padding: "0px 10px",
     }),
 };
